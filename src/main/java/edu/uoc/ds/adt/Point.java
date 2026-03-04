@@ -1,7 +1,11 @@
 package edu.uoc.ds.adt;
+/*
+Classe per definir el tipus de dades punt
+ */
 
 public class Point {
 
+    // Declarem les variables x i y
     private double x;
     private double y;
 
@@ -21,8 +25,8 @@ public class Point {
         return this.y;
     }
 
-    // Per imprimir el punt per la cosola
-    @Override
+    // Convertim el punt en un string.
+    @Override  // per substituir el toString que te la classe Object
     public String toString() {
         return "Point(" + x + ", " + y + ")";
     }

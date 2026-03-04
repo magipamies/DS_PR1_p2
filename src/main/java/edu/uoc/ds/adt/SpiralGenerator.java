@@ -1,8 +1,12 @@
 package edu.uoc.ds.adt;
 
+/*
+Classe per fer els càlculs
+ */
+
 public class SpiralGenerator {
 
-    // Generemun array de punts per l'espiral d'Arqímedes
+    // Generena un array de punts de l'espiral d'Arqímedes. Cal posar les variables d'entrada per generar-la
     public static Point[] generate(double a, double b, double thetaMax, double step) {
 
         // Calculem quants punts hi haurà
@@ -11,7 +15,7 @@ public class SpiralGenerator {
         // Creem l'arrray de punts
         Point[] points = new Point[numPoints];
 
-        // Generem cada un dels punts
+        // Generem cada un dels punts i els afegim a l'array de punts
         double theta = 0;
         for (int i = 0; i < numPoints; i++) {
             double r = a + b * theta;
