@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class PR2QueueTest {
+public class PR1QueueTest {
     PR1Queue pr1q;
 
     private void fillQueue(Point[] points) {

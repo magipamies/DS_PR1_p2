@@ -5,7 +5,7 @@ import org.junit.Before;
 
 import static org.junit.Assert.*;
 
-public class PR2StackTest {
+public class PR1StackTest {
 
     PR1Stack pr1s;
 
